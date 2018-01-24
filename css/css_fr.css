@@ -17,49 +17,49 @@ html, body{
 }
 
 #content a:hover{
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 
 /************/
 /* accueuil */
 /************/
-   
+
 #langues{
-    height: 80px;
-    width: 100px;
-    float: left;
-    font-size: 1.4em;
-    line-height: 1.5em;
-    margin: 100px 0 0 100px;
+   height: 80px;
+   width: 100px;
+   float: left;
+   font-size: 1.4em;
+   line-height: 1.5em;
+   margin: 100px 0 0 100px;
 }
 
 #frnl{
-    float: right;
-    font-weight: bold; 
-    font-family: "times news roman";
+   float: right;
+   font-weight: bold; 
+   font-family: "times news roman";
 }
 
 #frnl a{
-    color: #ADADAD;
-    text-decoration: none;
+   color: #ADADAD;
+   text-decoration: none;
 }
 
 #frnl a:hover {
-    color: #6E2167;
+   color: #6E2167;
 }
 
 #logo1{
-    background-image: url(../images/langues/accueil_01.jpg);
-    height: 574px;
-    width: 898px;
-    float: left;
+   background-image: url(../images/langues/accueil_01.jpg);
+   height: 574px;
+   width: 898px;
+   float: left;
 }
 #logo2{
-    background-image: url(../images/langues/accueil_02.jpg);
-    height: 245px;
-    width: 580px;
-    float: left;
+   background-image: url(../images/langues/accueil_02.jpg);
+   height: 245px;
+   width: 580px;
+   float: left;
 }
 
 #content_a{
@@ -76,45 +76,50 @@ html, body{
 /*********/
 
 .times {
-     font-family: "times news roman", times;
+   font-family: "times news roman", times;
 }
 
 .italic{
-    font-style: italic;
+   font-style: italic;
 }
 
 .bold{
-    font-weight: bold;
+   font-weight: bold;
 }
 
 .normal{
-    font-weight: normal;
+   font-weight: normal;
 }
 
 .sousligne{
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 .tiret{
-    list-style-image: url(../images/tiret.jpg); 
+   list-style-image: url(../images/tiret.jpg); 
 }
 
 .separateur{
-    background-image: url(../images/ligne_h.jpg);
-    width: 821px;
-    height: 6px;
-    margin: 40px auto 0 auto;
+   background-image: url(../images/ligne_h.jpg);
+   width: 821px;
+   height: 6px;
+   margin: 40px auto 0 auto;
 }
 
 #logo{
-    background-image: url(../images/logo_ouverture_logos2.jpg);
-    height: 634px;
-    width: 935px;
+   background-image: url(../images/logo_ouverture_logos2.jpg);
+   height: 634px;
+   width: 935px;
    box-sizing: border-box;
    margin: 0 ;
    padding : 30px 495px 20px 45px;
    position: relative;
 }
+
+#logo p{
+   margin: 10px 0 ;
+}
+
 #logo_lien{
    position:absolute;
    left 45px;
@@ -124,29 +129,29 @@ html, body{
    border: 0;
 }
 /*#logo_a{
-    margin: 0px 45px 30px;
-    border: 0;
+margin: 0px 45px 30px;
+border: 0;
 }*/
 
 #logoP2{
-    background-image: url(../images/logo.png);
-    height: 243px;
-    width: 1020px;
+   background-image: url(../images/logo.png);
+   height: 243px;
+   width: 1020px;
 }
 
 #logo_aP2{
-    margin: 137px 0 0 560px;
-    border: 0;
+   margin: 137px 0 0 560px;
+   border: 0;
 }
 
 .logo_titre{
-    margin: 15px 0 30px 100px;
-    font-size: 1.4em;
+   margin: 15px 0 30px 100px;
+   font-size: 1.4em;
 }
 
 .logo_titre a{
-    text-decoration: none;
-    margin-right: 100px;
+   text-decoration: none;
+   margin-right: 100px;
 }
 
 #lien_langue{
@@ -154,19 +159,19 @@ html, body{
 }
 
 #content .logo_titre a:hover{
-    color: #6E2167;
+   color: #6E2167;
 }
 
 .texte_mauve{
-    color: #6E2167;
+   color: #6E2167;
 }
 
 .texte_vert{
-    color: #8BA409;
+   color: #8BA409;
 }
 
 .texte_gris{
-    color: #ADADAD;
+   color: #ADADAD;
 }
 
 #content{
@@ -178,168 +183,172 @@ html, body{
 }
 
 #menu{
-    margin: 0 0 0 100px;
+   margin: 0 0 0 100px;
 }
 
 #menu .lien_titre{
-    margin: 12px 0 3px 0;
-    padding: 0;
-    font-size: 1.4em;
+   margin: 12px 0 3px 0;
+   padding: 0;
+   font-size: 1.4em;
 }
 
 #menu .lien_titre a{
-    color: #8BA409;
-    text-decoration: none;
+   color: #8BA409;
+   text-decoration: none;
 }
 
 #menu .lien_titre a:hover{
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 #menu .lien_liste ul{
-    margin: 0 0 0 15px;
-    padding: 0;
-    color: #6E2167;
+   margin: 0 0 0 15px;
+   padding: 0;
+   color: #6E2167;
 }
 
 #menu .lien_liste ul a{
-    color: #6E2167;
-    text-decoration: none;
+   color: #6E2167;
+   text-decoration: none;
 }
 
 #menu .lien_liste ul a:hover{
-    color: #6E2167;
-    text-decoration: underline;
+   color: #6E2167;
+   text-decoration: underline;
 }
 
 #menu .lien_liste ul li{
-    padding: 2px 0 0 0;
+   padding: 2px 0 0 0;
 }
-  
+
 .paragraphe{
-    position: relative;
-    width: 1020px;
-    margin: 0 0 0 100px;
-    overflow: hidden;
+   position: relative;
+   width: 1020px;
+   margin: 0 0 0 100px;
+   overflow: hidden;
 }
 
 .paragraphe p{
-    width: 450px;
-    text-align: justify;
-    line-height: 1.1em;
+   width: 450px;
+   text-align: justify;
+   line-height: 1.1em;
 }
 
 
 .paragraphe .para_titre{
-    font-size: 2.5em;
-    font-weight: normal;
-    padding: 0;
-    margin: 0 0 20px 0;
-    width: 450px;
+   font-size: 2.5em;
+   font-weight: normal;
+   padding: 0;
+   margin: 0 0 20px 0;
+   width: 450px;
 }
 
 .paragraphe .para_soustitre{
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-top: 25px;
-    width: 450px;
+   font-size: 1.1em;
+   font-weight: bold;
+   margin-top: 25px;
+   width: 450px;
 }
 
 .paragraphe .para_soustitre_normal{
-    font-size: 1.1em;
-    font-weight: normal;
-    margin-top: 25px;
-    width: 450px;
+   font-size: 1.1em;
+   font-weight: normal;
+   margin-top: 25px;
+   width: 450px;
 }
 
 .images, .imagesb{
-    position: absolute;
-    margin: 15px 0 0 465px;
+   position: absolute;
+   margin: 15px 0 0 465px;
 }
 
 
 .images img{
-    padding-right: 5px;
-    margin-bottom: 20px;
+   padding-right: 5px;
+   margin-bottom: 20px;
 }
 
 .marge{
-    margin-top: 15px;
+   margin-top: 15px;
 }
 
 .legende{
-    font-size: 0.7em;
-    color: #6B6B6B;
+   font-size: 0.7em;
+   color: #6B6B6B;
 }
 
 .paragraphe .img_big{
-    margin-top: 10px;
+   margin-top: 10px;
 }
 
 .paragraphe .liste{
-    width: 450px;
-    text-align: justify;
-    line-height: 1.1em;
+   width: 450px;
+   text-align: justify;
+   line-height: 1.1em;
 }
 
 .paragraphe .liste ul{
-    padding-left: 15px;
+   padding-left: 15px;
 }
 
 .paragraphe a{
-    color:  #6E2167;
+   color:  #6E2167;
 }
 
 table{
-    width: 450px;
+   width: 450px;
 }
 
 td{
-    padding:.5rem ;
+   padding:.5rem ;
    vertical-align: text-top;
 }
 
 tr:nth-child(odd) {
-    background-color: #eee;
+   background-color: #eee;
 }
 
 
 #coord{
-    line-height: 1.4em;
+   line-height: 1.4em;
 }
 
 
 #fin{
-    height: 190px;
+   height: 190px;
 }
 
 #blank01{
-    height: 50px;
+   height: 50px;
 }
 
 #blank02{
-    height: 75px;
+   height: 75px;
 }
 
 
 .retour{
-    margin-left: 25px;
-    border: 0;
+   margin-left: 25px;
+   border: 0;
 }
 
 #en_construction{
-    font-family: helvetica;
-    font-weight: bold;
-    font-size: 18px;
-    color: #6E2167;
+   font-family: helvetica;
+   font-weight: bold;
+   font-size: 18px;
+   color: #6E2167;
    text-align: center;
 }
 
 
 #credit{
-margin: 100px 0 0 0;
-font-size: 10px;
+   margin: 100px 0 0 0;
+   font-size: 10px;
 }
 
+sup{
+   font-size: 75%;
+   line-height: 0;
+}
 
 
